@@ -4,11 +4,6 @@ Cluster-api-provider-aws controllers by default, reconcile cluster-api objects
 across all namespaces in the cluster. However, it is possible to restrict
 reconciliation to a single namespace and this document tells you how.
 
-## Contents <!-- omit in toc -->
-
-- [Use cases](#use-cases)
-- [Configuring `cluster-api-provider-aws` controllers](#configuring-cluster-api-provider-aws-controllers)
-
 ## Use cases
 
 - Grouping clusters into a namespace based on the AWS account will allow
